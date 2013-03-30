@@ -28,6 +28,13 @@
 		3E3D531E1704543D00604EFC /* Ejercicio26T6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ejercicio26T6; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3D53211704543D00604EFC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3E3D53231704543D00604EFC /* Ejercicio26T6.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ejercicio26T6.1; sourceTree = "<group>"; };
+		3E3D532B1704547700604EFC /* Cola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cola.h; sourceTree = "<group>"; };
+		3E3D532C1704547700604EFC /* DCola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCola.h; sourceTree = "<group>"; };
+		3E3D532D1704547700604EFC /* Excepciones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Excepciones.h; sourceTree = "<group>"; };
+		3E3D532E1704547700604EFC /* Lista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lista.h; sourceTree = "<group>"; };
+		3E3D532F1704547700604EFC /* Pila.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pila.h; sourceTree = "<group>"; };
+		3E3D53301704547700604EFC /* PilaE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PilaE.h; sourceTree = "<group>"; };
+		3E3D53311704547700604EFC /* PilaLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PilaLE.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +67,25 @@
 		3E3D53201704543D00604EFC /* Ejercicio26T6 */ = {
 			isa = PBXGroup;
 			children = (
+				3E3D532A1704546800604EFC /* headers */,
 				3E3D53211704543D00604EFC /* main.cpp */,
 				3E3D53231704543D00604EFC /* Ejercicio26T6.1 */,
 			);
 			path = Ejercicio26T6;
+			sourceTree = "<group>";
+		};
+		3E3D532A1704546800604EFC /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				3E3D532B1704547700604EFC /* Cola.h */,
+				3E3D532C1704547700604EFC /* DCola.h */,
+				3E3D532D1704547700604EFC /* Excepciones.h */,
+				3E3D532E1704547700604EFC /* Lista.h */,
+				3E3D532F1704547700604EFC /* Pila.h */,
+				3E3D53301704547700604EFC /* PilaE.h */,
+				3E3D53311704547700604EFC /* PilaLE.h */,
+			);
+			name = headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +238,7 @@
 				3E3D53291704543D00604EFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
